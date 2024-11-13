@@ -1,0 +1,51 @@
+.physical-offices {
+    background-color: #2B88A2;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.physical-offices__container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.physical-offices__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.physical-offices__image-container {
+    margin-bottom: 1.5rem;
+}
+
+.physical-offices__image {
+    width: 100%;
+    max-width: 676px;
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    border-radius: 8px; /* Opcional: puedes agregar bordes redondeados */
+}
+
+.physical-offices__address {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.physical-offices__link {
+    color: #FFDD00;
+    text-decoration: underline;
+    font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    display: block;
+    margin-bottom: 2rem;
+}

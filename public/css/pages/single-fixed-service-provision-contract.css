@@ -1,0 +1,42 @@
+.single-fixed-service-provision-contract {
+    background-color: #2B88A2;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.single-fixed-service-provision-contract__container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.single-fixed-service-provision-contract__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.single-fixed-service-provision-contract__subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.single-fixed-service-provision-contract__pdf {
+    margin-bottom: 1.5rem;
+}
+
+.single-fixed-service-provision-contract__link {
+    color: #FFDD00;
+    text-decoration: underline;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1.5rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}

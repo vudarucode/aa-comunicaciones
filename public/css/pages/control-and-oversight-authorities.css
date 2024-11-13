@@ -1,0 +1,44 @@
+.control-and-oversight-authorities {
+    background-color: #2B88A2;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.control-and-oversight-authorities__container {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.control-and-oversight-authorities__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.control-and-oversight-authorities__section {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.control-and-oversight-authorities__logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.control-and-oversight-authorities__section p {
+    font-size: 1rem;
+    margin: 0.3rem 0;
+}
+
+.control-and-oversight-authorities__section a {
+    color: #FFDD00;
+    text-decoration: underline;
+}
